@@ -1,0 +1,7 @@
+{
+    "sketch": "Sensor_Code\\Arduino_.ino",
+    "output": "build",
+    "configuration": "softdevice=s140v6,debug=l0",
+    "board": "Seeeduino:nrf52:xiaonRF52840Sense",
+    "port": "COM10"
+}

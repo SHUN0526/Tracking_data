@@ -1,0 +1,12 @@
+{
+  "additionalFiles": "",
+  "builtInLibrariesFolders": "C:\\Program Files (x86)\\Arduino\\libraries",
+  "builtInToolsFolders": "C:\\Program Files (x86)\\Arduino\\tools-builder,C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr,C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages",
+  "compiler.optimization_flags": "",
+  "customBuildProperties": "build.path=c:\\arduino_jol\\build,build.warn_data_percentage=75,runtime.tools.nrfjprog.path=C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\tools\\nrfjprog\\9.4.0,runtime.tools.nrfjprog-9.4.0.path=C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\tools\\nrfjprog\\9.4.0,runtime.tools.CMSIS.path=C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\tools\\CMSIS\\5.7.0,runtime.tools.CMSIS-5.7.0.path=C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\tools\\CMSIS\\5.7.0,runtime.tools.arm-none-eabi-gcc.path=C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\tools\\arm-none-eabi-gcc\\9-2019q4,runtime.tools.arm-none-eabi-gcc-9-2019q4.path=C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\tools\\arm-none-eabi-gcc\\9-2019q4",
+  "fqbn": "Seeeduino:nrf52:xiaonRF52840Sense:softdevice=s140v6,debug=l0",
+  "hardwareFolders": "C:\\Program Files (x86)\\Arduino\\hardware,C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages",
+  "otherLibrariesFolders": "C:\\Users\\soong\\OneDrive\\문서\\Arduino\\libraries",
+  "runtime.ide.version": "10819",
+  "sketchLocation": "c:\\arduino_jol\\Sensor_Code\\Arduino_.ino"
+}
