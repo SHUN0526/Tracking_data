@@ -19,11 +19,12 @@ data = cursor.fetchall()
 # 데이터프레임 변환
 df = pd.DataFrame(data, columns=["timestamp", "heart_rate", "gsr"])
 
-# GSR 값 정규화
-df["gsr_scaled"] = (df["gsr"] - df["gsr"].min()) / (df["gsr"].max() - df["gsr"].min()) * (df["heart_rate"].max() - df["heart_rate"].min()) + df["heart_rate"].min()
+# 심박수가 0이거나 비정상적으로 급격히 떨어지는 값 제거
+df = df[df["heart_rate"] > 40]  # 40 미만 값 제거 (실제 심박수 기준)
 
-# GSR 데이터 부드럽게 만들기 (이동 평균 적용)
-df["gsr_smoothed"] = df["gsr"].rolling(window=5).mean()
+# GSR 값 정규화 및 이동 평균 (스무딩 적용)
+df["gsr_scaled"] = (df["gsr"] - df["gsr"].min()) / (df["gsr"].max() - df["gsr"].min()) * (df["heart_rate"].max() - df["heart_rate"].min()) + df["heart_rate"].min()
+df["gsr_smoothed"] = df["gsr"].rolling(window=10, min_periods=1).mean()  # 이동 평균 적용
 
 # 그래프 설정
 fig, ax1 = plt.subplots(figsize=(12,6))
@@ -44,7 +45,7 @@ ax2.tick_params(axis="y", labelcolor="blue")
 plt.xticks(rotation=45)
 
 # 제목 추가
-plt.title("Heart Rate & GSR Trend")
+plt.title("Heart Rate & GSR Trend (Filtered)")
 
 # 그래프 출력
 plt.show()

@@ -26,8 +26,8 @@ while True:
         data = line.split("\t")
 
         if len(data) == 4:  # 데이터 개수가 4개인지 확인
-            spo2 = int(data[0])
-            heart_rate = int(data[1])
+            heart_rate = int(data[0])
+            spo2 = int(data[1])
             temperature = float(data[2])
             gsr = int(data[3])
 
@@ -37,7 +37,7 @@ while True:
             cursor.execute(query, values)
             db.commit()
 
-            print(f"📡 저장됨: SpO2={spo2}, 심박수={heart_rate}, 온도={temperature}, GSR={gsr}")
+            print(f"📡 저장됨: 심박수={heart_rate}, 산소포화도={spo2}, 온도={temperature}, GSR={gsr}")
 
     except Exception as e:
         print("❌ 오류 발생:", e)
