@@ -13,7 +13,7 @@ db = mysql.connector.connect(
 cursor = db.cursor()
 
 # MySQL에서 데이터 가져오기 
-cursor.execute("SELECT timestamp, heart_rate, gsr FROM sensor_data ORDER BY timestamp DESC LIMIT 500")
+cursor.execute("SELECT timestamp, heart_rate, gsr FROM sensor_data ORDER BY timestamp DESC LIMIT 600")
 data = cursor.fetchall()
 
 # 데이터프레임 변환

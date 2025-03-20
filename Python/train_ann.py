@@ -1,96 +1,115 @@
 import numpy as np
 import pandas as pd
 import pickle
+import matplotlib.pyplot as plt
 from itertools import product
+
+# ✅ 데이터 로드
+df = pd.read_csv("augmented_sensor_data.csv")
+emotion_mapping = dict(zip(df["emotion_label"].unique(), df["emotion"].unique()))  # {라벨 번호: 감정}
+print(f"📢 감정 라벨 매핑 확인: {emotion_mapping}")
+
+# ✅ 감정별 데이터 개수 출력
+label_counts = df["emotion_label"].value_counts().sort_index()
+print("📊 감정 라벨 개수 확인:")
+for label, count in label_counts.items():
+    print(f"    {emotion_mapping[label]} ({label}): {count}개")
+
+# ✅ 입력값 (X)와 정답값 (y)
+X = df[["heart_rate", "gsr", "gsr_diff"]].values
+y = df["emotion_label"].values
+
+# ✅ 데이터 정규화 (평균 0, 표준편차 1)
+mean = X.mean(axis=0)
+scale = X.std(axis=0)
+X = (X - mean) / scale  # 정규화 적용
+
+# ✅ 원-핫 인코딩 적용 (다중 분류)
+num_classes = len(np.unique(y))
+y_one_hot = np.zeros((len(y), num_classes))
+y_one_hot[np.arange(len(y)), y] = 1
+
+# ✅ 소프트맥스 함수 (안정성 개선)
+def softmax(x):
+    x = x - np.max(x, axis=1, keepdims=True)
+    exp_x = np.exp(x)
+    return exp_x / exp_x.sum(axis=1, keepdims=True)
 
 # ✅ 시그모이드 활성화 함수
 def sigmoid(x):
     return 1 / (1 + np.exp(-x))
 
-def sigmoid_derivative(x):
-    return x * (1 - x)
-
 # ✅ 순전파 (Forward Propagation)
 def forward(X, W1, W2):
     X_bias = np.column_stack((X, np.ones(len(X))))
     Z1 = np.dot(X_bias, W1)
-    A1 = sigmoid(Z1)
+    A1 = sigmoid(Z1)  
 
-    H_bias = np.column_stack((A1, np.ones(len(A1))))
+    H_bias = np.column_stack((A1, np.ones(len(A1))))  
     Z2 = np.dot(H_bias, W2)
-    A2 = sigmoid(Z2)
+
+    Z2 = np.clip(Z2, -10, 10)  # Z2 값 클리핑 적용
+    A2 = softmax(Z2)  
     return A2, Z1, A1, Z2, X_bias, H_bias
 
 # ✅ 역전파 (Backpropagation)
 def backward(X, X_bias, H_bias, y, A2, Z1, A1, W1, W2, lr):
-    out_err = y - A2
-    out_delta = out_err * sigmoid_derivative(A2)
+    out_err = A2 - y
+    out_delta = out_err  
 
     hid_err = out_delta.dot(W2[:-1, :].T)
-    hid_delta = hid_err * sigmoid_derivative(A1)
+    hid_delta = hid_err * (A1 * (1 - A1))  
 
-    W2 += H_bias.T.dot(out_delta) * lr
-    W1 += X_bias.T.dot(hid_delta) * lr
+    W2 -= H_bias.T.dot(out_delta) * lr  
+    W1 -= X_bias.T.dot(hid_delta) * lr  
 
     return W1, W2
 
-# ✅ 데이터 로드
-df = pd.read_csv("augmented_sensor_data.csv")
-df = df[(df["heart_rate"] != -1) & (df["gsr"] != -1)]
+# ✅ 하이퍼파라미터 최적화
+hidden_layer_sizes = range(4, 10)
+learning_rates = [0.01, 0.005, 0.001]
+epochs = 5000  
 
-# ✅ 감정 라벨 개수 확인 (기타(Other) 제외)
-emotion_counts = df[df["emotion_label"] != 1]["emotion_label"].value_counts().sort_index()
-print("📢 감정 라벨 개수 확인 (기타 제외):\n", emotion_counts)
-
-# ✅ 가장 적은 개수를 가진 감정 찾기 & 가중치 설정
-min_label = emotion_counts.idxmin()  # 가장 적은 개수를 가진 감정 라벨
-weight_label = min_label  # 해당 감정에 가중치 적용
-weight_value = 20  # 가중치 1.5배 적용
-
-print(f"✅ 가장 적은 개수를 가진 감정: {weight_label}, 가중치 {weight_value} 적용됨.")
-
-# ✅ 입력값 (X)와 정답값 (y)
-X = df[["heart_rate", "gsr", "gsr_diff"]].values
-y = df["emotion_label"].values.reshape(-1, 1)
-
-# ✅ 데이터 정규화 (평균 0, 표준편차 1)
-X = (X - X.mean(axis=0)) / X.std(axis=0)
-
-# ✅ 실험할 하이퍼파라미터 범위 설정 (에포크는 10,000으로 고정)
-hidden_layer_sizes = range(1, 15)  # 은닉층 뉴런 개수 (1 ~ 15)
-learning_rates = [0.1, 0.05, 0.01, 0.005, 0.001]  # 학습률 범위
-epochs = 10000  # 에포크는 10,000으로 고정
-
-# ✅ 최적의 하이퍼파라미터 저장 변수
 best_accuracy = 0
 best_params = {}
 
-# ✅ 모든 조합을 시도하여 최적값 찾기
+print("\n🔎 하이퍼파라미터 탐색 시작...\n")
+results = []
+
 for hidden_size, learning_rate in product(hidden_layer_sizes, learning_rates):
-    print(f"\n🚀 테스트 중 - 은닉층: {hidden_size}, 학습률: {learning_rate}, 에포크: {epochs}")
+    print(f"\n🚀 테스트 중 - 은닉층: {hidden_size}, 학습률: {learning_rate}")
 
     # ✅ 모델 초기화
     input_size = X.shape[1]
-    output_size = 1
+    output_size = num_classes  
+
     W1 = np.random.randn(input_size + 1, hidden_size) * 0.01
     W2 = np.random.randn(hidden_size + 1, output_size) * 0.01
 
-    # ✅ 학습 실행
+    mse_list = []
+    acc_list = []
+
     for epoch in range(epochs):
         A2, Z1, A1, Z2, X_bias, H_bias = forward(X, W1, W2)
-        W1, W2 = backward(X, X_bias, H_bias, y, A2, Z1, A1, W1, W2, learning_rate)
+        W1, W2 = backward(X, X_bias, H_bias, y_one_hot, A2, Z1, A1, W1, W2, learning_rate)
 
-        # ✅ MSE (Mean Squared Error) 계산
-        mse = np.mean((y - A2) ** 2)
+        mse = np.mean((y_one_hot - A2) ** 2)
+        mse_list.append(mse)
 
-        # ✅ Accuracy (정확도) 계산
-        predictions = np.round(A2)
+        predictions = np.argmax(A2, axis=1)
         accuracy = np.mean(predictions == y)
+        acc_list.append(accuracy)
 
-        if epoch % 2000 == 0:
+        if epoch % 500 == 0 or epoch == epochs - 1:
             print(f"📢 Epoch {epoch}/{epochs} - MSE: {mse:.4f}, Accuracy: {accuracy:.4f}")
 
-    # ✅ 최적의 하이퍼파라미터 업데이트 (가장 높은 정확도를 기준으로)
+    results.append({
+        "hidden_size": hidden_size,
+        "learning_rate": learning_rate,
+        "epochs": epochs,
+        "accuracy": accuracy
+    })
+
     if accuracy > best_accuracy:
         best_accuracy = accuracy
         best_params = {
@@ -99,13 +118,15 @@ for hidden_size, learning_rate in product(hidden_layer_sizes, learning_rates):
             "epochs": epochs,
             "accuracy": accuracy
         }
-        # ✅ 최적의 모델 저장
+        # ✅ 모델 저장 (정규화 정보도 함께 저장)
         with open("best_ann_model.pkl", "wb") as f:
-            pickle.dump((W1, W2), f)
+            pickle.dump((W1, W2, emotion_mapping, mean, scale), f)
 
-print("\n🎯 최적의 하이퍼파라미터 찾음!")
-print(f"✅ 은닉층: {best_params['hidden_size']}, 학습률: {best_params['learning_rate']}, 에포크: {best_params['epochs']}")
-print(f"✅ 최종 Accuracy: {best_params['accuracy']:.4f}")
+print("\n🎯 최적의 하이퍼파라미터 탐색 완료!\n")
+print(f"✅ 은닉층 개수: {best_params['hidden_size']}")
+print(f"✅ 학습률: {best_params['learning_rate']}")
+print(f"✅ 에포크: {best_params['epochs']}")
+print(f"✅ 최종 정확도: {best_params['accuracy']:.4f}")
 
 # ✅ 최적의 하이퍼파라미터 저장
 with open("best_hyperparameters.pkl", "wb") as f:
