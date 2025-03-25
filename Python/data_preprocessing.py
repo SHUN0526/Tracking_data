@@ -35,11 +35,11 @@ def classify_emotion(row):
 
     if hr > heart_mean + heart_std and abs(gsr_diff) < gsr_diff_std:
         return "기쁨"
-    elif hr > heart_mean + (heart_std*0.3) and gsr > gsr_mean + (gsr_std*0.3):
+    elif hr > heart_mean + heart_std and gsr > gsr_mean + (gsr_std*0.3):
         return "긴장"
     elif (
-        abs(hr - heart_mean) < heart_std * 0.3
-        and abs(gsr - gsr_mean) < gsr_std * 0.3
+        abs(hr - heart_mean) < heart_std
+        and abs(gsr - gsr_mean) < gsr_std
     ):
         return "평온"
     else:
