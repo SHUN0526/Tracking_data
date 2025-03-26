@@ -33,7 +33,7 @@ gsr_diff_std = df["gsr_diff"].std()
 def classify_emotion(row):
     hr, gsr, gsr_diff = row["heart_rate"], row["gsr"], row["gsr_diff"]
 
-    if hr > heart_mean + heart_std and abs(gsr_diff) < gsr_diff_std:
+    if hr > heart_mean + heart_std and abs(gsr_diff) < gsr_diff_std and abs(gsr - gsr_mean) < gsr_std:
         return "기쁨"
     elif hr > heart_mean + heart_std and gsr > gsr_mean + (gsr_std*0.3):
         return "긴장"
