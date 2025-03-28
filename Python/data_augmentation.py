@@ -4,23 +4,21 @@ import numpy as np
 # ✅ 기존 데이터 불러오기
 df = pd.read_csv("processed_sensor_data.csv")
 
-# ✅ -1 데이터 필터링 (심박수 또는 GSR이 -1인 행 제거)
-df = df[(df["heart_rate"] != -1) & (df["gsr"] != -1)]
-
 # ✅ 각 감정별 데이터 개수 확인
 label_counts = df["emotion_label"].value_counts()
 max_count = label_counts.max()  # 가장 많은 감정 개수를 기준으로 증강
 print(f"📊 감정별 데이터 개수:\n{label_counts}\n")
 
 # ✅ 랜덤 노이즈 추가 함수
-def add_noise(value, noise_level=0.05):
+def add_noise(value, noise_level):
     return value + np.random.uniform(-noise_level, noise_level) * value
 
 # ✅ 증강할 데이터 저장 리스트
 augmented_data = []
 
 # ✅ 각 감정별로 균등한 데이터 증강
-for label, count in label_counts.items():
+for label, count in label_counts.items(): 
+#(lable, count)
     if count < max_count:  # 가장 많은 개수에 맞추기 위해 부족한 데이터만 증강
         required_count = max_count - count  # 증강해야 하는 개수
         augmentation_factor = required_count // count  # 증강 배수
@@ -32,6 +30,7 @@ for label, count in label_counts.items():
         # ✅ 증강 수행
         for _ in range(augmentation_factor):
             for _, row in subset_df.iterrows():
+            #데이터프레임의 각 행을 하나씩 순서대로 가져옴
                 new_row = row.copy()
                 new_row["heart_rate"] = add_noise(row["heart_rate"], noise_level=0.05)
                 new_row["gsr"] = add_noise(row["gsr"], noise_level=0.1)
@@ -40,6 +39,7 @@ for label, count in label_counts.items():
 
         # ✅ 남은 개수 추가 증강 (정확한 균형을 위해)
         extra_rows = subset_df.sample(n=remainder, replace=True)
+        #뽑아올 행의 개수만큼 임의로 가져옴/ 중복 가능능
         for _, row in extra_rows.iterrows():
             new_row = row.copy()
             new_row["heart_rate"] = add_noise(row["heart_rate"], noise_level=0.05)

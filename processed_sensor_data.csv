@@ -1,4 +1,4 @@
-timestamp,heart_rate,gsr,gsr_diff,emotion,emotion_label
+﻿timestamp,heart_rate,gsr,gsr_diff,emotion,emotion_label
 2025-03-25 16:20:27,118,59,0.0,기타,1
 2025-03-25 16:20:26,112,49,-10.0,기타,1
 2025-03-25 16:20:25,112,40,-9.0,기타,1
