@@ -1,0 +1,1580 @@
+{
+  "emotion_labeling_data": [
+    {
+      "label": "기쁨",
+      "labeled_data": [
+        {
+          "timestamp": "2025-03-31 03:49:36",
+          "heart_rate": 255,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 104
+        },
+        {
+          "timestamp": "2025-03-31 03:49:37",
+          "heart_rate": 255,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 84
+        },
+        {
+          "timestamp": "2025-03-31 03:49:38",
+          "heart_rate": 101,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 90
+        },
+        {
+          "timestamp": "2025-03-31 03:49:39",
+          "heart_rate": 101,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 96
+        },
+        {
+          "timestamp": "2025-03-31 03:49:40",
+          "heart_rate": 101,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 85
+        },
+        {
+          "timestamp": "2025-03-31 03:49:41",
+          "heart_rate": 101,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 84
+        },
+        {
+          "timestamp": "2025-03-31 03:49:42",
+          "heart_rate": 106,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:49:43",
+          "heart_rate": 106,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 96
+        },
+        {
+          "timestamp": "2025-03-31 03:49:44",
+          "heart_rate": 106,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 72
+        },
+        {
+          "timestamp": "2025-03-31 03:49:45",
+          "heart_rate": 106,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 68
+        },
+        {
+          "timestamp": "2025-03-31 03:49:46",
+          "heart_rate": 109,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 67
+        },
+        {
+          "timestamp": "2025-03-31 03:49:47",
+          "heart_rate": 109,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 72
+        },
+        {
+          "timestamp": "2025-03-31 03:49:48",
+          "heart_rate": 109,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 84
+        },
+        {
+          "timestamp": "2025-03-31 03:49:49",
+          "heart_rate": 109,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 108
+        },
+        {
+          "timestamp": "2025-03-31 03:49:50",
+          "heart_rate": 95,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 82
+        },
+        {
+          "timestamp": "2025-03-31 03:49:51",
+          "heart_rate": 95,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 73
+        },
+        {
+          "timestamp": "2025-03-31 03:49:52",
+          "heart_rate": 95,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 81
+        },
+        {
+          "timestamp": "2025-03-31 03:49:53",
+          "heart_rate": 95,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 91
+        },
+        {
+          "timestamp": "2025-03-31 03:49:54",
+          "heart_rate": 255,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 96
+        },
+        {
+          "timestamp": "2025-03-31 03:49:55",
+          "heart_rate": 255,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 80
+        },
+        {
+          "timestamp": "2025-03-31 03:49:56",
+          "heart_rate": 255,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 81
+        },
+        {
+          "timestamp": "2025-03-31 03:49:57",
+          "heart_rate": 255,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:49:58",
+          "heart_rate": 255,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 103
+        },
+        {
+          "timestamp": "2025-03-31 03:49:59",
+          "heart_rate": 255,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 86
+        },
+        {
+          "timestamp": "2025-03-31 03:50:00",
+          "heart_rate": 255,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 89
+        },
+        {
+          "timestamp": "2025-03-31 03:50:01",
+          "heart_rate": 255,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:50:02",
+          "heart_rate": 105,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 92
+        },
+        {
+          "timestamp": "2025-03-31 03:50:03",
+          "heart_rate": 105,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:50:04",
+          "heart_rate": 105,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 98
+        },
+        {
+          "timestamp": "2025-03-31 03:50:05",
+          "heart_rate": 105,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:50:06",
+          "heart_rate": 88,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:50:07",
+          "heart_rate": 88,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 100
+        },
+        {
+          "timestamp": "2025-03-31 03:50:08",
+          "heart_rate": 88,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 89
+        },
+        {
+          "timestamp": "2025-03-31 03:50:09",
+          "heart_rate": 88,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 92
+        },
+        {
+          "timestamp": "2025-03-31 03:50:10",
+          "heart_rate": 96,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 100
+        },
+        {
+          "timestamp": "2025-03-31 03:50:11",
+          "heart_rate": 96,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:50:12",
+          "heart_rate": 96,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 101
+        },
+        {
+          "timestamp": "2025-03-31 03:50:13",
+          "heart_rate": 96,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 103
+        },
+        {
+          "timestamp": "2025-03-31 03:50:14",
+          "heart_rate": 99,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 102
+        },
+        {
+          "timestamp": "2025-03-31 03:50:15",
+          "heart_rate": 99,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 89
+        },
+        {
+          "timestamp": "2025-03-31 03:50:16",
+          "heart_rate": 99,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 81
+        },
+        {
+          "timestamp": "2025-03-31 03:50:17",
+          "heart_rate": 99,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 85
+        },
+        {
+          "timestamp": "2025-03-31 03:50:18",
+          "heart_rate": 112,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 90
+        },
+        {
+          "timestamp": "2025-03-31 03:50:19",
+          "heart_rate": 112,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:50:20",
+          "heart_rate": 112,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:50:21",
+          "heart_rate": 112,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:50:22",
+          "heart_rate": 101,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 100
+        },
+        {
+          "timestamp": "2025-03-31 03:50:23",
+          "heart_rate": 101,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 103
+        },
+        {
+          "timestamp": "2025-03-31 03:50:24",
+          "heart_rate": 101,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:50:25",
+          "heart_rate": 101,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 87
+        },
+        {
+          "timestamp": "2025-03-31 03:50:26",
+          "heart_rate": 115,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:50:27",
+          "heart_rate": 115,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 96
+        },
+        {
+          "timestamp": "2025-03-31 03:50:28",
+          "heart_rate": 115,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:50:29",
+          "heart_rate": 115,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:50:30",
+          "heart_rate": 117,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 103
+        },
+        {
+          "timestamp": "2025-03-31 03:50:31",
+          "heart_rate": 117,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 101
+        },
+        {
+          "timestamp": "2025-03-31 03:50:32",
+          "heart_rate": 117,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 88
+        },
+        {
+          "timestamp": "2025-03-31 03:50:33",
+          "heart_rate": 117,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 85
+        },
+        {
+          "timestamp": "2025-03-31 03:50:34",
+          "heart_rate": 124,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 84
+        },
+        {
+          "timestamp": "2025-03-31 03:50:35",
+          "heart_rate": 124,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:50:36",
+          "heart_rate": 124,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 101
+        },
+        {
+          "timestamp": "2025-03-31 03:50:37",
+          "heart_rate": 117,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 103
+        },
+        {
+          "timestamp": "2025-03-31 03:50:38",
+          "heart_rate": 117,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 104
+        },
+        {
+          "timestamp": "2025-03-31 03:50:39",
+          "heart_rate": 117,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 105
+        },
+        {
+          "timestamp": "2025-03-31 03:50:40",
+          "heart_rate": 117,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 101
+        },
+        {
+          "timestamp": "2025-03-31 03:50:41",
+          "heart_rate": 123,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:50:42",
+          "heart_rate": 123,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 94
+        },
+        {
+          "timestamp": "2025-03-31 03:50:43",
+          "heart_rate": 123,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 90
+        },
+        {
+          "timestamp": "2025-03-31 03:50:44",
+          "heart_rate": 123,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:50:45",
+          "heart_rate": 255,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 98
+        },
+        {
+          "timestamp": "2025-03-31 03:50:46",
+          "heart_rate": 255,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:50:47",
+          "heart_rate": 255,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 94
+        },
+        {
+          "timestamp": "2025-03-31 03:50:48",
+          "heart_rate": 255,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 89
+        },
+        {
+          "timestamp": "2025-03-31 03:50:49",
+          "heart_rate": 108,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 91
+        },
+        {
+          "timestamp": "2025-03-31 03:50:50",
+          "heart_rate": 108,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:50:51",
+          "heart_rate": 108,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 98
+        },
+        {
+          "timestamp": "2025-03-31 03:50:52",
+          "heart_rate": 108,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:50:53",
+          "heart_rate": 102,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 98
+        },
+        {
+          "timestamp": "2025-03-31 03:50:54",
+          "heart_rate": 102,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 86
+        },
+        {
+          "timestamp": "2025-03-31 03:50:55",
+          "heart_rate": 102,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 90
+        },
+        {
+          "timestamp": "2025-03-31 03:50:56",
+          "heart_rate": 102,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 95
+        },
+        {
+          "timestamp": "2025-03-31 03:50:57",
+          "heart_rate": 88,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:50:58",
+          "heart_rate": 88,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 100
+        },
+        {
+          "timestamp": "2025-03-31 03:50:59",
+          "heart_rate": 88,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 101
+        },
+        {
+          "timestamp": "2025-03-31 03:51:00",
+          "heart_rate": 88,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 102
+        },
+        {
+          "timestamp": "2025-03-31 03:51:01",
+          "heart_rate": 91,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 103
+        },
+        {
+          "timestamp": "2025-03-31 03:51:02",
+          "heart_rate": 91,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 105
+        },
+        {
+          "timestamp": "2025-03-31 03:51:03",
+          "heart_rate": 91,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 106
+        },
+        {
+          "timestamp": "2025-03-31 03:51:04",
+          "heart_rate": 91,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 106
+        },
+        {
+          "timestamp": "2025-03-31 03:51:05",
+          "heart_rate": 100,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 108
+        },
+        {
+          "timestamp": "2025-03-31 03:51:06",
+          "heart_rate": 100,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 107
+        },
+        {
+          "timestamp": "2025-03-31 03:51:07",
+          "heart_rate": 100,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:51:08",
+          "heart_rate": 100,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 101
+        },
+        {
+          "timestamp": "2025-03-31 03:51:09",
+          "heart_rate": 104,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 105
+        }
+      ]
+    },
+    {
+      "label": "긴장",
+      "labeled_data": [
+        {
+          "timestamp": "2025-03-31 03:52:13",
+          "heart_rate": 114,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 89
+        },
+        {
+          "timestamp": "2025-03-31 03:52:14",
+          "heart_rate": 114,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 92
+        },
+        {
+          "timestamp": "2025-03-31 03:52:15",
+          "heart_rate": 114,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 91
+        },
+        {
+          "timestamp": "2025-03-31 03:52:16",
+          "heart_rate": 114,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 94
+        },
+        {
+          "timestamp": "2025-03-31 03:52:17",
+          "heart_rate": 112,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 98
+        },
+        {
+          "timestamp": "2025-03-31 03:52:18",
+          "heart_rate": 112,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 100
+        },
+        {
+          "timestamp": "2025-03-31 03:52:19",
+          "heart_rate": 112,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:52:20",
+          "heart_rate": 112,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 91
+        },
+        {
+          "timestamp": "2025-03-31 03:52:21",
+          "heart_rate": 110,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 91
+        },
+        {
+          "timestamp": "2025-03-31 03:52:22",
+          "heart_rate": 110,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 92
+        },
+        {
+          "timestamp": "2025-03-31 03:52:23",
+          "heart_rate": 110,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:52:24",
+          "heart_rate": 110,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 100
+        },
+        {
+          "timestamp": "2025-03-31 03:52:25",
+          "heart_rate": 255,
+          "spo2": 255,
+          "temperature": 25,
+          "gsr": 103
+        },
+        {
+          "timestamp": "2025-03-31 03:52:26",
+          "heart_rate": 255,
+          "spo2": 255,
+          "temperature": 25,
+          "gsr": 104
+        },
+        {
+          "timestamp": "2025-03-31 03:52:27",
+          "heart_rate": 255,
+          "spo2": 255,
+          "temperature": 25,
+          "gsr": 105
+        },
+        {
+          "timestamp": "2025-03-31 03:52:28",
+          "heart_rate": 255,
+          "spo2": 255,
+          "temperature": 25,
+          "gsr": 106
+        },
+        {
+          "timestamp": "2025-03-31 03:52:29",
+          "heart_rate": 100,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 106
+        },
+        {
+          "timestamp": "2025-03-31 03:52:30",
+          "heart_rate": 100,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 107
+        },
+        {
+          "timestamp": "2025-03-31 03:52:31",
+          "heart_rate": 100,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:52:32",
+          "heart_rate": 100,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 87
+        },
+        {
+          "timestamp": "2025-03-31 03:52:33",
+          "heart_rate": 105,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:52:34",
+          "heart_rate": 105,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 89
+        },
+        {
+          "timestamp": "2025-03-31 03:52:35",
+          "heart_rate": 105,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 89
+        },
+        {
+          "timestamp": "2025-03-31 03:52:36",
+          "heart_rate": 105,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 94
+        },
+        {
+          "timestamp": "2025-03-31 03:52:37",
+          "heart_rate": 255,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:52:38",
+          "heart_rate": 255,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:52:39",
+          "heart_rate": 255,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 100
+        },
+        {
+          "timestamp": "2025-03-31 03:52:40",
+          "heart_rate": 255,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 102
+        },
+        {
+          "timestamp": "2025-03-31 03:52:41",
+          "heart_rate": 103,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:52:42",
+          "heart_rate": 103,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 97
+        },
+        {
+          "timestamp": "2025-03-31 03:52:43",
+          "heart_rate": 103,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 101
+        },
+        {
+          "timestamp": "2025-03-31 03:52:44",
+          "heart_rate": 103,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 102
+        },
+        {
+          "timestamp": "2025-03-31 03:52:45",
+          "heart_rate": 92,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 106
+        },
+        {
+          "timestamp": "2025-03-31 03:52:46",
+          "heart_rate": 92,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 107
+        },
+        {
+          "timestamp": "2025-03-31 03:52:47",
+          "heart_rate": 92,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 109
+        },
+        {
+          "timestamp": "2025-03-31 03:52:48",
+          "heart_rate": 92,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 110
+        },
+        {
+          "timestamp": "2025-03-31 03:52:49",
+          "heart_rate": 84,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 111
+        },
+        {
+          "timestamp": "2025-03-31 03:52:50",
+          "heart_rate": 84,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 112
+        },
+        {
+          "timestamp": "2025-03-31 03:52:51",
+          "heart_rate": 84,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 111
+        },
+        {
+          "timestamp": "2025-03-31 03:52:52",
+          "heart_rate": 84,
+          "spo2": 96,
+          "temperature": 25,
+          "gsr": 114
+        },
+        {
+          "timestamp": "2025-03-31 03:52:53",
+          "heart_rate": 85,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 114
+        },
+        {
+          "timestamp": "2025-03-31 03:52:54",
+          "heart_rate": 85,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 113
+        },
+        {
+          "timestamp": "2025-03-31 03:52:55",
+          "heart_rate": 85,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 115
+        },
+        {
+          "timestamp": "2025-03-31 03:52:56",
+          "heart_rate": 85,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 115
+        },
+        {
+          "timestamp": "2025-03-31 03:52:57",
+          "heart_rate": 87,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 114
+        },
+        {
+          "timestamp": "2025-03-31 03:52:58",
+          "heart_rate": 87,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 115
+        },
+        {
+          "timestamp": "2025-03-31 03:52:59",
+          "heart_rate": 87,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 114
+        },
+        {
+          "timestamp": "2025-03-31 03:53:00",
+          "heart_rate": 87,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 93
+        },
+        {
+          "timestamp": "2025-03-31 03:53:01",
+          "heart_rate": 102,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 85
+        },
+        {
+          "timestamp": "2025-03-31 03:53:02",
+          "heart_rate": 102,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 84
+        },
+        {
+          "timestamp": "2025-03-31 03:53:03",
+          "heart_rate": 102,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 89
+        },
+        {
+          "timestamp": "2025-03-31 03:53:04",
+          "heart_rate": 102,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 80
+        },
+        {
+          "timestamp": "2025-03-31 03:53:05",
+          "heart_rate": 105,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 77
+        },
+        {
+          "timestamp": "2025-03-31 03:53:06",
+          "heart_rate": 105,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 79
+        },
+        {
+          "timestamp": "2025-03-31 03:53:07",
+          "heart_rate": 105,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 90
+        },
+        {
+          "timestamp": "2025-03-31 03:53:08",
+          "heart_rate": 105,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 99
+        },
+        {
+          "timestamp": "2025-03-31 03:53:09",
+          "heart_rate": 101,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 104
+        },
+        {
+          "timestamp": "2025-03-31 03:53:10",
+          "heart_rate": 101,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 109
+        },
+        {
+          "timestamp": "2025-03-31 03:53:11",
+          "heart_rate": 101,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 118
+        },
+        {
+          "timestamp": "2025-03-31 03:53:12",
+          "heart_rate": 101,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 129
+        },
+        {
+          "timestamp": "2025-03-31 03:53:13",
+          "heart_rate": 109,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 138
+        },
+        {
+          "timestamp": "2025-03-31 03:53:14",
+          "heart_rate": 109,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 138
+        },
+        {
+          "timestamp": "2025-03-31 03:53:15",
+          "heart_rate": 109,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 136
+        },
+        {
+          "timestamp": "2025-03-31 03:53:16",
+          "heart_rate": 109,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 137
+        },
+        {
+          "timestamp": "2025-03-31 03:53:17",
+          "heart_rate": 102,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 136
+        }
+      ]
+    },
+    {
+      "label": "평온",
+      "labeled_data": [
+        {
+          "timestamp": "2025-03-31 03:54:20",
+          "heart_rate": 115,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 161
+        },
+        {
+          "timestamp": "2025-03-31 03:54:21",
+          "heart_rate": 255,
+          "spo2": 255,
+          "temperature": 25,
+          "gsr": 165
+        },
+        {
+          "timestamp": "2025-03-31 03:54:22",
+          "heart_rate": 255,
+          "spo2": 255,
+          "temperature": 25,
+          "gsr": 172
+        },
+        {
+          "timestamp": "2025-03-31 03:54:23",
+          "heart_rate": 255,
+          "spo2": 255,
+          "temperature": 25,
+          "gsr": 175
+        },
+        {
+          "timestamp": "2025-03-31 03:54:24",
+          "heart_rate": 255,
+          "spo2": 255,
+          "temperature": 25,
+          "gsr": 176
+        },
+        {
+          "timestamp": "2025-03-31 03:54:25",
+          "heart_rate": 113,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 171
+        },
+        {
+          "timestamp": "2025-03-31 03:54:26",
+          "heart_rate": 113,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 165
+        },
+        {
+          "timestamp": "2025-03-31 03:54:27",
+          "heart_rate": 113,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 160
+        },
+        {
+          "timestamp": "2025-03-31 03:54:28",
+          "heart_rate": 113,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 165
+        },
+        {
+          "timestamp": "2025-03-31 03:54:29",
+          "heart_rate": 110,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 170
+        },
+        {
+          "timestamp": "2025-03-31 03:54:30",
+          "heart_rate": 110,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 172
+        },
+        {
+          "timestamp": "2025-03-31 03:54:31",
+          "heart_rate": 110,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 174
+        },
+        {
+          "timestamp": "2025-03-31 03:54:32",
+          "heart_rate": 110,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 176
+        },
+        {
+          "timestamp": "2025-03-31 03:54:33",
+          "heart_rate": 133,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 177
+        },
+        {
+          "timestamp": "2025-03-31 03:54:34",
+          "heart_rate": 133,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 176
+        },
+        {
+          "timestamp": "2025-03-31 03:54:35",
+          "heart_rate": 133,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 177
+        },
+        {
+          "timestamp": "2025-03-31 03:54:36",
+          "heart_rate": 133,
+          "spo2": 97,
+          "temperature": 25,
+          "gsr": 178
+        },
+        {
+          "timestamp": "2025-03-31 03:54:37",
+          "heart_rate": 119,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 178
+        },
+        {
+          "timestamp": "2025-03-31 03:54:38",
+          "heart_rate": 119,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 178
+        },
+        {
+          "timestamp": "2025-03-31 03:54:39",
+          "heart_rate": 119,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 178
+        },
+        {
+          "timestamp": "2025-03-31 03:54:40",
+          "heart_rate": 119,
+          "spo2": 98,
+          "temperature": 25,
+          "gsr": 179
+        },
+        {
+          "timestamp": "2025-03-31 03:54:41",
+          "heart_rate": 107,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 178
+        },
+        {
+          "timestamp": "2025-03-31 03:54:42",
+          "heart_rate": 107,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 179
+        },
+        {
+          "timestamp": "2025-03-31 03:54:43",
+          "heart_rate": 107,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 179
+        },
+        {
+          "timestamp": "2025-03-31 03:54:44",
+          "heart_rate": 107,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 180
+        },
+        {
+          "timestamp": "2025-03-31 03:54:45",
+          "heart_rate": 102,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 180
+        },
+        {
+          "timestamp": "2025-03-31 03:54:46",
+          "heart_rate": 102,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 180
+        },
+        {
+          "timestamp": "2025-03-31 03:54:47",
+          "heart_rate": 102,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 181
+        },
+        {
+          "timestamp": "2025-03-31 03:54:48",
+          "heart_rate": 102,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 181
+        },
+        {
+          "timestamp": "2025-03-31 03:54:49",
+          "heart_rate": 110,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 182
+        },
+        {
+          "timestamp": "2025-03-31 03:54:50",
+          "heart_rate": 110,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 183
+        },
+        {
+          "timestamp": "2025-03-31 03:54:51",
+          "heart_rate": 110,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 184
+        },
+        {
+          "timestamp": "2025-03-31 03:54:52",
+          "heart_rate": 110,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 185
+        },
+        {
+          "timestamp": "2025-03-31 03:54:53",
+          "heart_rate": 100,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 185
+        },
+        {
+          "timestamp": "2025-03-31 03:54:54",
+          "heart_rate": 100,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 187
+        },
+        {
+          "timestamp": "2025-03-31 03:54:55",
+          "heart_rate": 100,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 187
+        },
+        {
+          "timestamp": "2025-03-31 03:54:56",
+          "heart_rate": 100,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 189
+        },
+        {
+          "timestamp": "2025-03-31 03:54:57",
+          "heart_rate": 108,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 190
+        },
+        {
+          "timestamp": "2025-03-31 03:54:58",
+          "heart_rate": 108,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 190
+        },
+        {
+          "timestamp": "2025-03-31 03:54:59",
+          "heart_rate": 108,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 191
+        },
+        {
+          "timestamp": "2025-03-31 03:55:00",
+          "heart_rate": 108,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 192
+        },
+        {
+          "timestamp": "2025-03-31 03:55:01",
+          "heart_rate": 106,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 193
+        },
+        {
+          "timestamp": "2025-03-31 03:55:02",
+          "heart_rate": 106,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 192
+        },
+        {
+          "timestamp": "2025-03-31 03:55:03",
+          "heart_rate": 106,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 192
+        },
+        {
+          "timestamp": "2025-03-31 03:55:04",
+          "heart_rate": 106,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 190
+        },
+        {
+          "timestamp": "2025-03-31 03:55:05",
+          "heart_rate": 104,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 190
+        },
+        {
+          "timestamp": "2025-03-31 03:55:06",
+          "heart_rate": 104,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 192
+        },
+        {
+          "timestamp": "2025-03-31 03:55:07",
+          "heart_rate": 104,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 195
+        },
+        {
+          "timestamp": "2025-03-31 03:55:08",
+          "heart_rate": 104,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 197
+        },
+        {
+          "timestamp": "2025-03-31 03:55:09",
+          "heart_rate": 101,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 199
+        },
+        {
+          "timestamp": "2025-03-31 03:55:10",
+          "heart_rate": 101,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 199
+        },
+        {
+          "timestamp": "2025-03-31 03:55:11",
+          "heart_rate": 101,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 196
+        },
+        {
+          "timestamp": "2025-03-31 03:55:12",
+          "heart_rate": 101,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 197
+        },
+        {
+          "timestamp": "2025-03-31 03:55:13",
+          "heart_rate": 94,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 199
+        },
+        {
+          "timestamp": "2025-03-31 03:55:14",
+          "heart_rate": 94,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 202
+        },
+        {
+          "timestamp": "2025-03-31 03:55:15",
+          "heart_rate": 94,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 190
+        },
+        {
+          "timestamp": "2025-03-31 03:55:16",
+          "heart_rate": 94,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 165
+        },
+        {
+          "timestamp": "2025-03-31 03:55:17",
+          "heart_rate": 96,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 164
+        },
+        {
+          "timestamp": "2025-03-31 03:55:18",
+          "heart_rate": 96,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 162
+        },
+        {
+          "timestamp": "2025-03-31 03:55:19",
+          "heart_rate": 96,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 158
+        },
+        {
+          "timestamp": "2025-03-31 03:55:20",
+          "heart_rate": 96,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 161
+        },
+        {
+          "timestamp": "2025-03-31 03:55:21",
+          "heart_rate": 93,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 167
+        },
+        {
+          "timestamp": "2025-03-31 03:55:22",
+          "heart_rate": 93,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 170
+        },
+        {
+          "timestamp": "2025-03-31 03:55:23",
+          "heart_rate": 93,
+          "spo2": 99,
+          "temperature": 25,
+          "gsr": 172
+        }
+      ]
+    }
+  ]
+}

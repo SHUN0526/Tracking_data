@@ -1,0 +1,420 @@
+{
+  "emotion_backup_data": [
+    {
+      "timestamp": "2025-03-31 00:35:48",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 80,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 00:36:28",
+      "heart_rate": 93,
+      "spo2": 92,
+      "temperature": 25,
+      "gsr": 87,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 00:36:37",
+      "heart_rate": 97,
+      "spo2": 95,
+      "temperature": 25,
+      "gsr": 87,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 03:56:07",
+      "heart_rate": 80,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 176,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:38",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 33,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:41",
+      "heart_rate": 136,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 32,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:47",
+      "heart_rate": 105,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 18,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:51",
+      "heart_rate": 112,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 8,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:52",
+      "heart_rate": 104,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 5,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:53",
+      "heart_rate": 104,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 7,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:55",
+      "heart_rate": 104,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 8,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:56",
+      "heart_rate": 103,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 8,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:57",
+      "heart_rate": 103,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 9,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:30:59",
+      "heart_rate": 103,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 10,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:00",
+      "heart_rate": 92,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 9,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:01",
+      "heart_rate": 92,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 12,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:02",
+      "heart_rate": 92,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 15,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:04",
+      "heart_rate": 92,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 17,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:08",
+      "heart_rate": 90,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 26,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:10",
+      "heart_rate": 90,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 38,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:27",
+      "heart_rate": 88,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 47,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:29",
+      "heart_rate": 92,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 49,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:32",
+      "heart_rate": 98,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 51,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:36",
+      "heart_rate": 100,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 54,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:38",
+      "heart_rate": 100,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 61,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:41",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 47,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:31:44",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 56,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:32:06",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 88,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:28",
+      "heart_rate": 83,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 240,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:30",
+      "heart_rate": 91,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 228,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:33",
+      "heart_rate": 96,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 252,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:38",
+      "heart_rate": 97,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 13,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:41",
+      "heart_rate": 92,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 17,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:45",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 172,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:47",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 178,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:49",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 181,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:51",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 188,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:37:56",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 201,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 04:38:54",
+      "heart_rate": 87,
+      "spo2": 96,
+      "temperature": 25,
+      "gsr": 93,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:38:56",
+      "heart_rate": 87,
+      "spo2": 96,
+      "temperature": 25,
+      "gsr": 71,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:38:58",
+      "heart_rate": 105,
+      "spo2": 97,
+      "temperature": 25,
+      "gsr": 101,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:00",
+      "heart_rate": 105,
+      "spo2": 97,
+      "temperature": 25,
+      "gsr": 117,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:04",
+      "heart_rate": 113,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 82,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:05",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 88,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:07",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 87,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:08",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 88,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:13",
+      "heart_rate": 255,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 88,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:14",
+      "heart_rate": 255,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 88,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:15",
+      "heart_rate": 255,
+      "spo2": 99,
+      "temperature": 25,
+      "gsr": 88,
+      "predicted_emotion": "기쁨"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:23",
+      "heart_rate": 116,
+      "spo2": 98,
+      "temperature": 25,
+      "gsr": 130,
+      "predicted_emotion": "긴장"
+    },
+    {
+      "timestamp": "2025-03-31 04:39:25",
+      "heart_rate": 116,
+      "spo2": 98,
+      "temperature": 25,
+      "gsr": 202,
+      "predicted_emotion": "평온"
+    },
+    {
+      "timestamp": "2025-03-31 05:04:54",
+      "heart_rate": 255,
+      "spo2": 255,
+      "temperature": 25,
+      "gsr": 87,
+      "predicted_emotion": "기쁨"
+    }
+  ]
+}

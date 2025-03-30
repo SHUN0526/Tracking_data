@@ -1,37 +1,50 @@
-import numpy as np
+import json
 import pandas as pd
+import numpy as np
 import pickle
-import matplotlib.pyplot as plt
+from sklearn.preprocessing import LabelEncoder
 from itertools import product
 
-# ✅ 데이터 로드
-df = pd.read_csv("augmented_sensor_data.csv")
-emotion_mapping = dict(zip(df["emotion_label"].unique(), df["emotion"].unique()))  # {라벨 번호: 감정}
-print(f"📢 감정 라벨 매핑 확인: {emotion_mapping}")
+# ✅ 사용자 JSON 파일 로드
+with open("emotion_labeling_input.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
 
-# ✅ 감정별 데이터 개수 출력
-label_counts = df["emotion_label"].value_counts().sort_index()
-#인덱스 번호 순서-sort_index()
-print("📊 감정 라벨 개수 확인:")
-for label, count in label_counts.items():
-    print(f"    {emotion_mapping[label]} ({label}): {count}개")
+# ✅ JSON → DataFrame 변환
+sensor_records = []
+for item in data["emotion_labeling_data"]:
+    emotion = item["label"]
+    for record in item["labeled_data"]:
+        record["emotion"] = emotion
+        sensor_records.append(record)
 
-# ✅ 입력값 (X)와 정답값 (y)
+df = pd.DataFrame(sensor_records)
+
+# ✅ 전처리: 결측값 및 -1 제거
+df.replace(-1, np.nan, inplace=True)
+df.dropna(inplace=True)
+
+# ✅ GSR 변화량 계산
+df["gsr_diff"] = df["gsr"].diff().fillna(0)
+
+# ✅ 감정 라벨 인코딩
+label_encoder = LabelEncoder()
+df["emotion_label"] = label_encoder.fit_transform(df["emotion"])
+emotion_mapping = dict(zip(label_encoder.transform(label_encoder.classes_), label_encoder.classes_))
+print("📊 감정 라벨 매핑:", emotion_mapping)
+
+# ✅ 학습 입력값/정답값 설정
 X = df[["heart_rate", "gsr", "gsr_diff"]].values
 y = df["emotion_label"].values
 
-# ✅ 데이터 정규화 (평균 0, 표준편차 1)
+# ✅ 입력 정규화
 mean = X.mean(axis=0)
 scale = X.std(axis=0)
-X = (X - mean) / scale  # 정규화 적용
+X = (X - mean) / scale
 
-# ✅ 원-핫 인코딩 적용 (다중 분류)
+# ✅ 원-핫 인코딩
 num_classes = len(np.unique(y))
-#pd는 발견된 순서대로, np는 오름차순
 y_one_hot = np.zeros((len(y), num_classes))
-#동일한 크기의 제로공간 생성
 y_one_hot[np.arange(len(y)), y] = 1
-#정답 공간에 1 넣기
 
 # ✅ 소프트맥스 함수 (안정성 개선)
 def softmax(x):
@@ -136,6 +149,9 @@ print(f"✅ 은닉층 개수: {best_params['hidden_size']}")
 print(f"✅ 학습률: {best_params['learning_rate']}")
 print(f"✅ 에포크: {best_params['epochs']}")
 print(f"✅ 최종 정확도: {best_params['accuracy']:.4f}")
+print("📦 모델 저장 위치: best_ann_model.pkl")
+print("📊 라벨 매핑:", emotion_mapping)
+
 
 # ✅ 최적의 하이퍼파라미터 저장
 with open("best_hyperparameters.pkl", "wb") as f:

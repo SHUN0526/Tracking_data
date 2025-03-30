@@ -11,6 +11,21 @@
   },
   {
     "Sourcefile": "c:\\arduino_jol\\build\\sketch\\Arduino_.ino.cpp",
+    "Include": "bluefruit.h",
+    "Includepath": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src"
+  },
+  {
+    "Sourcefile": "c:\\arduino_jol\\build\\sketch\\Arduino_.ino.cpp",
+    "Include": "Adafruit_nRFCrypto.h",
+    "Includepath": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_nRFCrypto\\src"
+  },
+  {
+    "Sourcefile": "c:\\arduino_jol\\build\\sketch\\Arduino_.ino.cpp",
+    "Include": "Adafruit_TinyUSB.h",
+    "Includepath": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_TinyUSB_Arduino\\src"
+  },
+  {
+    "Sourcefile": "c:\\arduino_jol\\build\\sketch\\Arduino_.ino.cpp",
     "Include": "DFRobot_BloodOxygen_S.h",
     "Includepath": "C:\\Users\\soong\\OneDrive\\문서\\Arduino\\libraries\\DFRobot_BloodOxygen_S"
   },
@@ -25,17 +40,212 @@
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\soong\\OneDrive\\문서\\Arduino\\libraries\\DFRobot_BloodOxygen_S\\DFRobot_BloodOxygen_S.cpp",
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEAdvertising.cpp",
     "Include": "",
     "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Wire\\Wire_nRF52.cpp",
-    "Include": "Adafruit_TinyUSB.h",
-    "Includepath": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_TinyUSB_Arduino\\src"
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLECentral.cpp",
+    "Include": "",
+    "Includepath": null
   },
   {
-    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Wire\\Wire_nRF52.cpp",
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLECharacteristic.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEClientCharacteristic.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEClientService.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEConnection.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEDiscovery.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEGatt.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEPeriph.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEScanner.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLESecurity.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEService.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\BLEUuid.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\bluefruit.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\clients\\BLEAncs.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientBas.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientCts.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientDis.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientHidAdafruit.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\clients\\BLEClientUart.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEBas.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEBeacon.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEComm.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEDfu.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEDis.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEHidAdafruit.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEHidGamepad.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEHidGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEMidi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\BLEUart.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\services\\EddyStone.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\utility\\AdaMsg.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\utility\\bonding.cpp",
+    "Include": "Adafruit_LittleFS.h",
+    "Includepath": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_LittleFS\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\utility\\bonding.cpp",
+    "Include": "InternalFileSystem.h",
+    "Includepath": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\InternalFileSytem\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\utility\\bonding.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Bluefruit52Lib\\src\\utility\\bootloader_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_nRFCrypto\\src\\Adafruit_nRFCrypto.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_nRFCrypto\\src\\ecc\\nRFCrypto_ECC.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_nRFCrypto\\src\\ecc\\nRFCrypto_ECC_PrivateKey.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_nRFCrypto\\src\\ecc\\nRFCrypto_ECC_PublicKey.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_nRFCrypto\\src\\nRFCrypto_Hash.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_nRFCrypto\\src\\nRFCrypto_Random.cpp",
     "Include": "",
     "Includepath": null
   },
@@ -206,6 +416,51 @@
   },
   {
     "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_TinyUSB_Arduino\\src\\tusb.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\OneDrive\\문서\\Arduino\\libraries\\DFRobot_BloodOxygen_S\\DFRobot_BloodOxygen_S.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Wire\\Wire_nRF52.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_LittleFS\\src\\Adafruit_LittleFS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_LittleFS\\src\\Adafruit_LittleFS_File.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_LittleFS\\src\\littlefs\\lfs.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\Adafruit_LittleFS\\src\\littlefs\\lfs_util.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\InternalFileSytem\\src\\InternalFileSystem.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\InternalFileSytem\\src\\flash\\flash_cache.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\soong\\AppData\\Local\\Arduino15\\packages\\Seeeduino\\hardware\\nrf52\\1.1.9\\libraries\\InternalFileSytem\\src\\flash\\flash_nrf5x.c",
     "Include": "",
     "Includepath": null
   }
