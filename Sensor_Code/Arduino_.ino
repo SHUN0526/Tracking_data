@@ -19,7 +19,7 @@ void setup() {
 
   // ✅ 센서 초기화
   Wire.begin();
-  Wire.setClock(400000);
+  Wire.setClock(100000);
 
   Serial.println("센서 초기화 중...");
   int retryCount = 0;
